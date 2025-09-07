@@ -1,0 +1,58 @@
+import { Product } from '@/types';
+
+export const mockProducts: Product[] = [
+  {
+    _id: '1',
+    name: 'Shirt Ironing',
+    description: 'Professional ironing service for shirts and formal wear',
+    price: 20,
+    category: 'ironing',
+    image: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400',
+    isActive: true,
+  },
+  {
+    _id: '2',
+    name: 'Trouser Pressing',
+    description: 'Expert pressing service for trousers and pants',
+    price: 20,
+    category: 'ironing',
+    image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400',
+    isActive: true,
+  },
+  {
+    _id: '3',
+    name: 'Saree Ironing',
+    description: 'Delicate ironing service for sarees and ethnic wear',
+    price: 20,
+    category: 'ironing',
+    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400',
+    isActive: true,
+  },
+  {
+    _id: '4',
+    name: 'Wash & Iron',
+    description: 'Complete washing and ironing service',
+    price: 20,
+    category: 'laundry',
+    image: 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=400',
+    isActive: true,
+  },
+  {
+    _id: '5',
+    name: 'Dry Cleaning',
+    description: 'Professional dry cleaning for delicate fabrics',
+    price: 20,
+    category: 'laundry',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
+    isActive: true,
+  },
+  {
+    _id: '6',
+    name: 'Bedsheet Laundry',
+    description: 'Washing and ironing service for bed linens',
+    price: 20,
+    category: 'laundry',
+    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400',
+    isActive: true,
+  },
+];

@@ -1,0 +1,38 @@
+import { Order } from '@/types';
+
+export const mockOrders: Order[] = [
+  {
+    _id: '1',
+    orderId: 'ORD001',
+    pickupId: 'PU001',
+    deliveryId: 'DL001',
+    userId: 'user1',
+    items: [],
+    totalAmount: 95,
+    status: 'delivered',
+    pickupAddress: '123 Main St, Bangalore',
+    deliveryAddress: '123 Main St, Bangalore',
+    pickupTime: '2024-01-15T10:00:00Z',
+    paymentMethod: 'UPI',
+    paymentStatus: 'completed',
+    createdAt: '2024-01-15T08:00:00Z',
+    updatedAt: '2024-01-15T18:00:00Z',
+  },
+  {
+    _id: '2',
+    orderId: 'ORD002',
+    pickupId: 'PU002',
+    deliveryId: 'DL002',
+    userId: 'user1',
+    items: [],
+    totalAmount: 120,
+    status: 'in-progress',
+    pickupAddress: '456 Park Ave, Bangalore',
+    deliveryAddress: '456 Park Ave, Bangalore',
+    pickupTime: '2024-01-16T14:00:00Z',
+    paymentMethod: 'Card',
+    paymentStatus: 'completed',
+    createdAt: '2024-01-16T12:00:00Z',
+    updatedAt: '2024-01-16T15:00:00Z',
+  },
+];
