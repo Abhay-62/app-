@@ -35,6 +35,11 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
+## Build APK via GitHub Actions
+
+This project now includes GitHub Actions workflow to automatically build APK files. 
+The workflow is triggered on push to the main branch or can be manually triggered.
+
 ## Learn more
 
 To learn more about developing your project with Expo, look at the following resources:
